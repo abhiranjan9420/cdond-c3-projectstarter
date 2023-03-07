@@ -206,7 +206,7 @@ jobs:
       - persist_to_workspace:
           root: .
           paths:
-            - Project3/
+            - backend/
       - destroy-environment:
           workflow_id: ${CIRCLE_WORKFLOW_ID:0:7}
   run-migrations:
